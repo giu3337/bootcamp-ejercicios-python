@@ -75,3 +75,20 @@ print(numeross)
 
 # if, elif, else
 # if se usa para evaluar una condición
+
+
+# if y condicionales
+# if se usa para evaluar una condición
+# elif se usa para evaluar múltiples condiciones
+# else se usa para ejecutar un bloque de código si la condición es falsa
+# if condicion:
+    # Bloque de código si la condición es verdadera
+
+edad = 18
+
+if edad < 18:
+    print("Eres menor de edad")
+elif edad == 18:
+    print("Tienes 18 años")
+else:
+    print("Eres mayor de edad")
