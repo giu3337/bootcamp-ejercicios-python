@@ -30,8 +30,25 @@ diccionario = {
 } #Objeto
 
 
-#Strings
+#Strings -> Cadenas de texto
 
+name = "Giuseppe"
+last_name = "Garcia"
+nombre_completo = name + " " + last_name
+print(nombre_completo)
+print(nombre_completo.find("G"))
+# -1 -> No existe el texto
+
+#Metodos de los Strings
+#upper() -> Convierte el texto a mayusculas
+#lower() -> Convierte el texto a minusculas
+#capitalize() -> Convierte la primera letra en mayuscula
+#strip() -> Elimina los espacios en blanco
+#replace() -> Reemplaza un texto por otro
+#split() -> Divide un texto en base a un caracter
+#find() -> Busca un texto dentro de otro
+#isnumeric() -> Devuelve True si el texto es un numero
+#isalpha() -> Devuelve True si el texto es una letra
 
 
 
