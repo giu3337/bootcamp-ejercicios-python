@@ -7,3 +7,4 @@
 
 # Terminal 
 # Aprender a usar la terminal de comandos desde el comando.
+# Aprender a usar Git. 
