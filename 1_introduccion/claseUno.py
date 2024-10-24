@@ -71,3 +71,65 @@ print("Su edad es: ", edade)
 edade_futura = edade_convertida + 10
 print("Su edad sera dentro de 10 años: " + str(edade_futura)) #int convertir a entero
 print("Su edad sera dentro de 10 años: " , edade_futura) #int convertir a entero
+
+#Operadores Aritmeticos
+
+# + -> Suma
+print(5 + 3)  #8
+# - -> Resta
+print(5 - 3)  #2
+# * -> Multiplicación
+print(5 * 3) #15
+# / -> División
+print(5 / 3) #1.6666666666666667
+# // -> División Entera
+print(5 // 3) #1
+# % -> Modulo (Resto de la división)
+print(5 % 3) #2
+# ** -> Potencia (Exponente)
+print(5 ** 3) #125
+
+#Operadores de Comparación
+
+# == -> Igualdad
+print(5 == 5) #True
+# != -> Diferencia
+print(5 != 5) #False
+# > -> Mayor que
+print(5 > 3) #True
+# < -> Menor que
+print(5 < 3) #False
+# >= -> Mayor o igual que
+print(5 >= 5) #True
+# <= -> Menor o igual que
+print(5 <= 3) #False
+
+#Operadores logicos
+
+# and -> Y
+print(True and True) #True
+print(True and False) #False
+print(False and True) #False
+print(False and False) #False
+# or -> O
+print(True or True) #True
+print(True or False) #True
+print(False or True) #True
+print(False or False) #False
+# not -> Negación
+print(not True) #False
+print(not False) #True
+
+# And -> True si ambos son True
+print(5 > 3 & 5 < 10) #True
+# Or -> True si uno de los dos es True
+print(5 > 3 | 5 < 10) #True
+# Not -> True si el valor es False
+print(not 5 > 3) #False
+
+
+
+#Estructuras de Control
+
+#Condicionales
+
