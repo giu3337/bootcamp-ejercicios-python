@@ -68,4 +68,6 @@ print("Su edad sera dentro de 10 años: ", int(age) + 10) #int convertir a enter
 edade = input("Ingrese su edad: ") #string
 edade_convertida = int(edade)
 print("Su edad es: ", edade)
-print("Su edad sera dentro de 10 años: ", edade_convertida + 10) #int convertir a entero
+edade_futura = edade_convertida + 10
+print("Su edad sera dentro de 10 años: " + str(edade_futura)) #int convertir a entero
+print("Su edad sera dentro de 10 años: " , edade_futura) #int convertir a entero
