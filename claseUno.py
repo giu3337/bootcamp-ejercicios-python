@@ -50,6 +50,22 @@ print(nombre_completo.find("G"))
 #isnumeric() -> Devuelve True si el texto es un numero
 #isalpha() -> Devuelve True si el texto es una letra
 
+# Pedir Datos al Usuario
+#input() -> Función que nos permite pedir datos al usuario
+#int() -> Convierte un texto a un numero entero
+#float() -> Convierte un texto a un numero decimal
 
+age = input("Ingrese su edad: ") #string
+print("Su edad es: ", age)
+print(type(age))
+print("Su edad sera dentro de 10 años: ", int(age) + 10) #int convertir a entero
 
+#conversion
+#str() -> Convierte un numero a un texto
+#float() -> Convierte un numero entero a un numero decimal
+#int() -> Convierte un numero decimal
 
+edade = input("Ingrese su edad: ") #string
+edade_convertida = int(edade)
+print("Su edad es: ", edade)
+print("Su edad sera dentro de 10 años: ", edade_convertida + 10) #int convertir a entero
