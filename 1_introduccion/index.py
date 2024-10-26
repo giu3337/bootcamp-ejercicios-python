@@ -65,7 +65,6 @@ es_mayor_de_edad = True # boolean
 # es_mayor_de_edad es un boolean
 
 
-print(numeross) 
 
 
 # numeros[0:5]? # [1, 2, 3, 4, 5]
@@ -84,11 +83,49 @@ print(numeross)
 # if condicion:
     # Bloque de código si la condición es verdadera
 
-edad = 18
 
-if edad < 18:
+"""
+edad = 18 
+if edad < 18: 
     print("Eres menor de edad")
 elif edad == 18:
-    print("Tienes 18 años")
+    print("Tienes 18")
 else:
-    print("Eres mayor de edad")
+    print("Eres mayor de edad")"""
+
+#operadores de comparación
+# == igual
+# != diferente
+# > mayor que
+# < menor que
+# >= mayor o igual que
+# <= menor o igual que
+
+#operadores lógicos
+# and y
+# or o
+# not no
+
+
+edad = 18
+
+if edad >= 18 and edad <= 30:
+    print("Eres un joven adulto")
+
+# While loop
+
+# Un bucle while se utiliza para ejecutar un bloque de código mientras la condición sea verdadera
+
+# while condicion:
+    # Bloque de código
+
+# ejemplo de while loop
+contador = 1
+while contador <= 5:
+    print(contador)
+    contador += 1
+
+# Diferencia entre while y for loop
+# Un bucle for se utiliza para iterar sobre una secuencia de elementos
+# Un bucle while se utiliza para ejecutar un bloque de código mientras la condición sea verdadera
+
