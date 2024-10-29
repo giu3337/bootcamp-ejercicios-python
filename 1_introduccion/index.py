@@ -45,6 +45,7 @@ persona = {
 # La función range() se utiliza para generar una secuencia de números
 # ejemplo de range
 numeross = range(1,10,2) # del 1 al 10 de 2 en 2
+# print(list(numeross)) # [1, 3, 5, 7, 9]
 
 #actividad 1
 
@@ -55,6 +56,8 @@ user = {
     "edad": 34,
     "ciudad": "Quito"
 } # diccionario
+
+# user["nombre"] = "Giuseppe"
 
 es_mayor_de_edad = True # boolean
 
@@ -122,10 +125,32 @@ if edad >= 18 and edad <= 30:
 # ejemplo de while loop
 contador = 1
 while contador <= 5:
-    print(contador)
+    print(contador) # 1, 2, 3, 4, 5
     contador += 1
 
 # Diferencia entre while y for loop
 # Un bucle for se utiliza para iterar sobre una secuencia de elementos
 # Un bucle while se utiliza para ejecutar un bloque de código mientras la condición sea verdadera
 
+contador = 0
+
+while contador < 5: # mientras contador sea menor a 5
+    if contador == 3: # si contador es igual a 3
+        break # termina el bucle
+    print(contador)
+    contador += 1
+    # 0, 1, 2
+
+# For loop
+# Un bucle for se utiliza para iterar sobre una secuencia de elementos
+# for elemento in secuencia:
+#     Bloque de código
+# ejemplo de for loop
+colores = ["rojo", "verde", "azul", "amarillo"]
+# for color in colores:
+#     print(color) # rojo, verde, azul, amarillo
+
+numeros = [1, 2, 3, 4, 5]
+
+for numero in numeros:
+    print(numero) # 1, 2, 3, 4, 5
