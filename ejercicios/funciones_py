@@ -1,0 +1,28 @@
+# def calcular_promedio(lista):
+#     return sum(lista) / len(lista) 
+
+# print(calcular_promedio([1, 2, 3, 4, 5]))
+
+
+# def es_par(numero):
+#     return numero % 2 == 0 #
+
+# print(es_par(4))
+
+# def calcular_factorial(numero):
+#     factorial = 1
+#     for i in range(1, numero + 1):
+#         factorial *= i
+#     return factorial   
+
+# print(calcular_factorial(5))
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+resultado = fibonacci(10)
+print(resultado)
